@@ -24,8 +24,8 @@ public class Main {
 
     }
 
-    static String wordFormat(String word){
+    static String wordFormat(String word) {
         String newWord = word.toLowerCase();
-    return newWord.substring(0, 1).toUpperCase() + newWord.substring(1);
+        return newWord.substring(0, 1).toUpperCase() + newWord.substring(1);
     }
 }
